@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/base.css">
+    <title>Book Shop</title>
+</head>
+<body>
+    <header class="header">
+        
+        <div class="navigation__header">
+            <div class="logo">
+                <h2 class="logo__item">Bookshop</h2>
+            </div>
+            
+            <div class="menu-nav">
+                <a href="" class="fatty-link">books</a>
+                <a href="" class="nav-link">audiobooks</a>
+                <a href="" class="nav-link">Stationery & gifts</a>
+                <a href="" class="nav-link">blog</a>
+            </div>
+
+            <div class="icon-items">
+                <img src="/img/user.svg" class="user" alt="user">
+                <img src="/img/search.svg" class="search" alt="search">
+                <img src="/img/shop bag.svg" class="shop-bag" alt="shop bag">
+                
+                <p class="count-basket">0</p>
+            </div>
+        </div>
+    
+    </header>
+
+    <!-- SLIDER -->
+    
+    <div class="wrapper-slider">
+        <div class="slider">
+
+            <div class="slider__line">
+                <img class="slider__img" src="./img/banner.jpg">
+                <img class="slider__img" src="./img/banner_2.jpg">
+                <img class="slider__img" src="./img/banner_3.jpg">
+            </div>
+
+            <button class="slider__btn-prev">
+                <img src="./img/left.png">
+            </button>
+            <button class="slider__btn-next">
+                <img src="./img/right.png">
+            </button>
+
+        </div>
+    </div>
+    
+    <div class="slider__wrapper">
+        <div class="slider__dot active-dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+    </div>
+
+    <!-- PROMO LINK -->
+
+    <div class="promo-link">
+        <a href="" class="promo1"><img src="/img/promo 1.jpg" alt="promo_one"></a>
+        <a href="" class="promo2"><img src="/img/promo 2.jpg" alt="promo_two"></a>
+    </div>
+
+    <!-- NAVIGATION MENU -->
+    <container class="main">
+    <div class="navigation">
+    <container class="nav-menu">
+        <ul id="category-list">
+            <li>Architecture</li>
+            <li>Art & Fashion</li>
+            <li>Biography</li>
+            <li>Business</li>
+            <li>Crafts & Hobbies</li>
+            <li>Drama</li>
+            <li>Fiction</li>
+            <li>Food & Drink</li>
+            <li>Health & Wellbeing</li>
+            <li>History & Politics</li>
+            <li>Humor</li>
+            <li>Poetry</li>
+            <li>Psychology</li>
+            <li>Science</li>
+            <li>Technology</li>
+            <li>Travel & Maps</li>
+        </ul>
+    </container>
+    </div>
+
+    <!-- CARD -->
+
+    <div class="cards">
+        
+    </div>
+
+    
+</container>
+<div class="load-data">
+<button class="load_more" onclick="getData(currentCategory)">LOAD MORE</button>
+</div>
+
+<footer>
+    <div class="footer">
+        <p class="foo-text">Проект Книжный Магазин SkillFactory, Корсаков Алексей 2023г.</p>
+    </div>
+</footer>
+
+
+
+
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+
+<script src="./build/main.bundle.js"></script>
+
+</body>
+</html>
